@@ -59,8 +59,8 @@ export default function Home() {
           {
               !loading && resumes.length === 0 && (
                   <div className="flex flex-col items-center justify-center mt-10 gap-4">
-                      <Link to="/upload" className="primaryButton w-fit text-xl font-semibold">
-                          Upload
+                      <Link to="/upload" className="primary-button w-fit text-xl font-semibold">
+                          Upload Resume
                       </Link>
                   </div>
               )
